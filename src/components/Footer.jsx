@@ -14,8 +14,8 @@ const Footer = () => {
 
       }}
     >
-      <p>Developed by</p>
-      <p>copyright</p>
+      <p>Developed by nmekinci</p>
+      <p>copyright 2023 nmekinci</p>
     </div>
   );
 };

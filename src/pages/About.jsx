@@ -32,7 +32,7 @@ const About = () => {
         <CardMedia
           sx={{ height: 140 }}
           image="/static/images/cards/contemplative-reptile.jpg"
-          title="green iguana"
+          title="nmekinci"
         />
         <CardContent>
           <Typography
@@ -41,15 +41,14 @@ const About = () => {
             component="div"
             sx={{ textAlign: "center" }}
           >
-            Title
+            nmekinci
           </Typography>
           <Typography
             variant="body2"
             color="text.secondary"
             sx={{ textAlign: "justify" }}
           >
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            This web application created with React.js and context method. This application allows us as a user; registration, sign-in and out, creating new blogs as a draft (it means just owner can see it) and published (everyone can see it), if you like it just click the heart button and if you changed your decide again click it and give back your like. You can see a red heart which one you liked. User can sent a comment to all blogs as well. Also there is a view counter in each blog and it shows us uniq count of views. After created a new blog user can update or delete it whenever want. When I create this application I used Sweetalert and MUI library. And If there is a something wrong or If you want to say hello to me nm.ekinci@gmail.com 📧
           </Typography>
         </CardContent>
 

@@ -87,7 +87,7 @@ const AuthContextProvider = ({ children }) => {
       dispatch({ type: "SUCCESS", payload: {...data, page: "/"} });
       // console.log(data);
       // console.log(state);
-      setCurrentUser({...data, page:"/"});
+      setCurrentUser({...data, page:"Dashboard"});
       Swal.fire(`${data?.user?.username}`, "Logged in succesfully", "question");
       // console.log(state);
       navigate("/");
@@ -109,7 +109,7 @@ const AuthContextProvider = ({ children }) => {
         user: {},
         loading: false,
         error: "",
-        page:"",
+        page:"Login",
       });
       // Swal.fire("Logged Out succesfully");
     } catch (error) {

@@ -3,7 +3,7 @@ export const initialAuthState = {
   user: {},
   loading: false,
   error: "",
-  page: "",
+  page: "Login",
 };
 
 export const reducerAuth = (initialAuthState, action) => {
