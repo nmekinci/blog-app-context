@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/blog-app-context/static/js/main.417fbc77.js",
+    "main.js": "/blog-app-context/static/js/main.e0cc764a.js",
     "index.html": "/blog-app-context/index.html",
-    "main.417fbc77.js.map": "/blog-app-context/static/js/main.417fbc77.js.map"
+    "main.e0cc764a.js.map": "/blog-app-context/static/js/main.e0cc764a.js.map"
   },
   "entrypoints": [
-    "static/js/main.417fbc77.js"
+    "static/js/main.e0cc764a.js"
   ]
 }
